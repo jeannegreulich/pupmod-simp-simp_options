@@ -1,3 +1,9 @@
+* Mon Feb 01 2021 Jeanne Greulich <jeanne.greulich@onyxpoint.com> - 1.4.2
+- Added simp_options::ntp.  This will be used for chrony and ntpd.
+- Default simp_options::ntp::servers to simp_options::ntpd::servers
+  for backwards compatibility.
+- Mark simp_options::ntpd::servers as deprecated.
+
 * Sat Dec 19 2020 Chris Tessmer <chris.tessmer@onyxpoint.com> - 1.4.2
 - Removed EL6 support
 

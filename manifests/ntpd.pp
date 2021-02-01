@@ -1,8 +1,8 @@
-# @summary Sets up NTP configuration variables
+# @summary Depercated.
 #
-# @param servers The list of NTP time servers for the network.
-#   A consistent time source is critical to your systems' security. **DO NOT**
-#   run multiple production systems using individual hardware clocks!
+# @param servers
+#   This variable has been deprecated and will be removed in the next release
+#   of simp_options.  Use simp_options::ntp instead.
 #
 # @author https://github.com/simp/pupmod-simp-simp_options/graphs/contributors
 #
